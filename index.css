@@ -1,0 +1,94 @@
+
+  body{
+     background-color:rgb(121, 150, 67);
+  }
+ 
+  #run{
+      background-color: green;
+  }
+  h1{
+    float: right;
+    padding-right:275px;
+     font-size: 55px;
+     color: orange;
+ }
+ #ri{
+     padding-left:200px;
+ }
+#samia{
+    
+    float: right;
+    padding-right: 15px;
+}
+#msitu{
+float: left;
+padding-left: 5%;
+}
+#ge{
+    border: 6px solid green;
+    }
+#or{
+    border: 4px solid orange;
+}
+#bla{
+    border: 6px solid black;
+}
+#o{
+    border: 4px solid orange;
+}
+#bl{
+    border: 6px solid blue;
+}
+
+  nav{
+      background-color: #10cf10;
+  }
+  nav ul {
+      padding:0;
+      margin:0;
+      list-style: none;
+      position: relative;
+  }
+  nav ul li{
+      display: inline-block;
+      background-color: #3fcf13;
+  }
+  nav a{
+      display:block;
+      padding: 0 10px;
+      color: rgb(255, 255, 255);
+      line-height: 60px;
+      font-size: 20px;
+      text-decoration: none;
+  }
+  /* Hide Dropdown by Default*/
+  nav ul ul {
+      display: none;
+      position: absolute;
+      top: 60px;
+  }
+  /* hover */
+  nav a:hover{
+      background-color: #000000;
+  }
+  /* Display Dropdown on Hover */
+  nav ul li:hover > ul {
+      display: inherit;
+  }
+  /* Fisrt Tier Dropdown */
+  nav ul ul li{
+      width: 170px;
+      
+      display: list-item;
+      position: relative;
+  
+  }
+h2{
+    text-align: center;
+    color:azure;
+    font-size: 30px;
+  
+}
+#uji{
+    float: right;
+}
